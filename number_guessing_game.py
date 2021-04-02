@@ -10,7 +10,7 @@ print("Welcome to Number Guessing Game!")
 def main():
     print("Remember you have three guesses to guess the right number!")
     guess_count = 0
-    guess = random.randint(1, 15)
+    guess = random.randint(1, 10)
     guess_limit = 3
     while True:
         try:
